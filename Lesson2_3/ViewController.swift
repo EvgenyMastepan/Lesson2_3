@@ -10,9 +10,8 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        print(self.view.frame)
         view.backgroundColor = .red
+        super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
